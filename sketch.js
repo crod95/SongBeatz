@@ -3,7 +3,7 @@
 //Canvas setup variables
 let canWidth = 600;
 let canHeight = 600;
-let inconsolata;
+//let inconsolata;
 
 //Map parameters, (h,w,d) respectively for height, width, and depth
 //Represents the grid of the map which is (mapSize x mapSize x mapHeight)
@@ -42,7 +42,7 @@ function preload()
 {
 	songListSize = 10;
 	songList = new Array(songListSize);
-	inconsolata = loadFont('fonts/inconsolata-Bold.otf');
+	//inconsolata = loadFont('fonts/inconsolata-Bold.otf');
 	//globalSong = loadSound('Phlex_TakeMeHomeTonightfeat.CaitlinGare.mp3');
 	//globalSong = loadSound(songName);
 	/*
@@ -119,7 +119,7 @@ function setup()
 	//colorMode(HSB);
 	//console.log("Running setup");
 	createCanvas(canWidth,canHeight,WEBGL);
-	textFont(inconsolata);
+	//textFont(inconsolata);
 
 	//Instructions
 	
